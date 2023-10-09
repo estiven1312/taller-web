@@ -28,7 +28,7 @@ public class LoginServlet extends HttpServlet {
         if(!username.equals("ADMIN@UNMSM.EDU")){
             errors.put("usernameError", "Usuario incorrecto");
         }
-        if(!password.equals("12345")){
+            if(!password.equals("12345")){
             errors.put("passwordError", "Contraseña incorrecta");
         }
         if(username.equalsIgnoreCase("ADMIN@UNMSM.EDU") && password.equals("12345")){
